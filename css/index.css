@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+}
+
+.wrapper {
+    width: 104rem;
+    margin: 0 auto;
+}
+
+.top-0 {
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.find {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.barra {
+    color: rgb(95, 95, 95);
+    padding: 0 0.7rem ;
+}
+
+.united {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+}
+
+.eu {
+    cursor: pointer;
+}
+
+.flecha {
+    color: #fff;
+    padding-left: 0.5rem;
+    padding-top: 0.4rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.two-elements-top {
+    display: flex;
+    align-items: center;
+}
+
