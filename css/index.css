@@ -90,7 +90,45 @@ li .nav-item {
 
 }
 
+.nav-item:last-child{
+    font-size: 1.1rem;
+}
+
 .logo {
     padding-left: 4rem;
 }
 
+.container-cars {
+    margin: auto 0;
+}
+
+.cars{
+   margin: auto ;
+   width: 4rem;
+   height: 2.5rem;
+   padding-right: 4rem;
+}
+
+.background-top{
+    background-image: url("../imagenes/welcome-gipson.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    block-size: 39.5rem;
+    inline-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inset-box {
+    background-color: blue;
+    width: 27rem;
+    height: 30rem;
+    margin-right: 15rem;
+}
+
+.inset-box>* {
+    color: white;
+    margin: 0;
+}
