@@ -55,3 +55,42 @@ header {
     align-items: center;
 }
 
+.top-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:#292828;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.list_nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+
+}
+
+.list_nav li {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+li .nav-item {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+
+}
+
+.logo {
+    padding-left: 4rem;
+}
+
