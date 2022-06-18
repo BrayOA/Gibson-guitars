@@ -70,14 +70,14 @@ header {
 .list_nav{
     display: flex;
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 
 }
 
 .list_nav li {
     display: flex;
     align-items: center;
-    padding-right: 2rem;
+    padding: 0 1.5rem;
 }
 
 li .nav-item {
@@ -87,15 +87,17 @@ li .nav-item {
     padding: 0.6rem;
     font-family: 'Pathway Gothic One', sans-serif;
     font-weight: bold;
+    font-size: 1.6rem;
 
 }
 
 .nav-item:last-child{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .logo {
     padding-left: 4rem;
+    cursor: pointer;
 }
 
 .container-cars {
@@ -107,28 +109,83 @@ li .nav-item {
    width: 4rem;
    height: 2.5rem;
    padding-right: 4rem;
+   cursor: pointer;
 }
 
 .background-top{
     background-image: url("../imagenes/welcome-gipson.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
     block-size: 39.5rem;
     inline-size: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: -1;
+    margin-bottom: 3rem;
 }
 
 .inset-box {
-    background-color: blue;
-    width: 27rem;
+    width: 36rem;
     height: 30rem;
-    margin-right: 15rem;
+    margin-right: 6.7rem;
+    margin-top: 7rem;
 }
 
 .inset-box>* {
     color: white;
-    margin: 0;
 }
+
+.the-everly{
+    font-size: 2.7rem;
+    line-height: 3.7rem;
+}
+
+.ebony{
+    font-size: 1.3rem;
+
+}
+
+.but{
+    background-color:#84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-color:#84734d;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+
+
+.wrapper2{
+    background-color:#fff;
+    height: 15rem;
+    text-align: center;
+  
+}
+
+.top-2{
+}
+.shop-by {
+    color: black;
+    text-align: center;
+}
+
+.guitars{
+    display: flex;  
+    margin-top: 3.2rem;
+}
+
+.git-img img{
+    height: 9rem;
+    width: 6rem;
+    padding:0 6rem ;
+    cursor: pointer;
+}
+
+.name-git {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
