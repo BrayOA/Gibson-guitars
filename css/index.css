@@ -166,7 +166,9 @@ li .nav-item {
 }
 
 .top-2{
+    font-size: 1.8rem;
 }
+
 .shop-by {
     color: black;
     text-align: center;
@@ -189,3 +191,46 @@ li .nav-item {
     font-weight: 600;
 }
 
+.inset-box-1 {
+    width: 34rem;
+    height: 20rem;
+    margin-right: 12rem;
+    margin-top: 7rem;
+}
+
+.inset-box-1>*{
+    color: #fff;
+}
+
+.background-top-1{
+    background-color: #000;
+    block-size: 38rem;
+    margin-top: 7rem;
+    display: flex;
+}
+
+.but2{
+    background-color:#84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-color:#84734d;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+
+.background-top-1{
+    background-color: #000;
+    block-size: 37.9rem;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.imgfont {
+    width: 82rem;
+    height: 100%;
+
+}
