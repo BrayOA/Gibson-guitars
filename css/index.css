@@ -275,6 +275,7 @@ li .nav-item {
 }
 .three-sections p{
     margin-bottom: 2rem;
+    margin-right: 10rem;
 }
 
  .img-1{
@@ -295,4 +296,7 @@ li .nav-item {
     height: 3.3rem;
 }
 
+.container-shot{
+    background-color: #292828;
+}
 
