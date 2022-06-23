@@ -251,7 +251,7 @@ li .nav-item {
     margin-top: 3rem;
     margin: auto;
     background-color: #000;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -298,5 +298,25 @@ li .nav-item {
 
 .container-shot{
     background-color: #292828;
+    margin: auto;
+    inline-size: 106.4rem;
+}
+.background-top-2{
+    block-size: 19rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+}
+ 
+.container-img_top-2{
+
 }
 
+.imgfont-2{
+    width:34.6rem;
+     height: 17rem;
+    vertical-align: middle    
+}
