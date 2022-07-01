@@ -314,6 +314,7 @@ li .nav-item {
     margin: 0 auto;
     display: flex;
     gap:2rem;
+    margin-bottom: 3rem;
 
  }
 
@@ -359,3 +360,18 @@ li .nav-item {
     margin-top: -1rem;
     margin-bottom: 1;
 }
+
+ /* section GIBSON BRANDS FAMILY  */
+
+ .gibson-brands-family{
+    background-color: rgb(211, 201, 201);
+ }
+
+
+
+ .three-sections-3{
+    color:#000;
+    height: 40rem;
+    flex-direction: column;
+    background-color: #fff;
+ }
