@@ -383,7 +383,7 @@ li .nav-item {
 
 .black-3{
     display: flex;
-    inline-size: 107rem;
+    inline-size: 106.4rem;
     justify-content: center;
     margin: 0 auto;
     gap: 3rem;
@@ -402,6 +402,7 @@ li .nav-item {
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     margin-bottom: 3rem;
+    width: 30rem;
 }
 
 .three-sections-3 h2{
@@ -430,7 +431,7 @@ li .nav-item {
 }
 
  .img-3{
-     width:37rem;
+     width:auto;
      height: 17rem;
     vertical-align: middle;
     object-fit: cover;
@@ -499,10 +500,25 @@ li .nav-item {
     margin-bottom: 5rem;
 }
 
+.img-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #292828;
+}
+
 .img-link{
     inline-size: 106.4rem;
     margin: auto;
+    display: flex;
+    align-items: center ;
 
+}
+
+.imagen-icono{
+height: 5.5rem;
+width: 6.8rem;
+margin: 2rem 0;
 }
 
 .link-5{
@@ -510,22 +526,23 @@ li .nav-item {
     color: #fff;
     margin: 2rem;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .stevens{
-    inline-size: 106.4rem;
-    margin: auto;
+    inline-size: 90rem;
 }
 
 .cat-stevens {
-    width: 76rem;
+    width: 100%;
+    height: 45.3rem;
     vertical-align: middle;
     z-index: -1;
 }
 
 .fill-row {
     display: flex;
-    width: 76rem;
+    width: 100%;
     margin-top: -6rem;
     height: 6rem;
     z-index: 1;
@@ -554,4 +571,52 @@ li .nav-item {
 .play p{
     color: #fff;
     margin: 1rem;
+}
+/* next column-3 */
+
+.column-three {
+    display: flex;
+    padding-bottom: 4rem;
+    inline-size: 106.4rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.column-3_inter {
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+    position: relative;
+}
+
+.inter-box_min {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.619); 
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-play-icon{
+    height: 3rem;
+    width: 3rem;
+}
+
+.inter-box_min a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    flex: 1;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
