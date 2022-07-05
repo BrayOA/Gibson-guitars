@@ -64,7 +64,7 @@ header {
 .nav{
     display: flex;
     align-items: center;
-    
+
 }
 
 .list_nav{
@@ -162,7 +162,7 @@ li .nav-item {
     background-color:#fff;
     height: 15rem;
     text-align: center;
-  
+
 }
 
 .top-2{
@@ -175,7 +175,7 @@ li .nav-item {
 }
 
 .guitars{
-    display: flex;  
+    display: flex;
     margin-top: 3.2rem;
     justify-content: space-around;
 }
@@ -229,7 +229,7 @@ li .nav-item {
     block-size: 37.9rem;
     margin-top: 7rem;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 3rem;
 }
@@ -552,7 +552,7 @@ margin: 2rem 0;
     text-decoration: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.619);
-    flex: 1;   
+    flex: 1;
     padding-top: 2.5rem;
     font-size: 1.5rem;
     padding-left: 2rem;
@@ -598,7 +598,7 @@ margin: 2rem 0;
 .inter-box_min {
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.619); 
+    background-color: rgba(0, 0, 0, 0.619);
     height: 5rem;
     position: absolute;
     bottom: 0;
@@ -619,4 +619,33 @@ margin: 2rem 0;
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* next column */
+.app-play{
+    background-color: #292828;
+}
+
+/* .background-2{
+
+} */
+
+.container-Repair{
+    display: flex;
+}
+
+.img-app{
+    width: 25%;
+    height: 37rem;
+
+}
+
+.container-black{
+    background-color: #000;
+    color: #fff;
+    width: 25%;
+    height: 37rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
