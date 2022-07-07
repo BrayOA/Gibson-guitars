@@ -681,3 +681,24 @@ margin: 2rem 0;
     margin: 1rem 0;
     margin-left: -7rem;
 }
+
+/* next section */
+
+.font-negro{
+    background-color: #000;
+    width: 112.5rem;
+    height: 36.8rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.img-commit{
+    position: absolute;
+}
+
+.año{
+    background-color: #84734d;
+    width: 40rem;
+    height: 30rem;
+
+}
