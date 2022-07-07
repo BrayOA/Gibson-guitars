@@ -668,6 +668,7 @@ margin: 2rem 0;
     line-height: 1.8rem;
     margin-bottom: 2rem;
 
+
 }
 
 .play-google{
@@ -690,15 +691,95 @@ margin: 2rem 0;
     height: 36.8rem;
     margin-bottom: 4rem;
     display: flex;
+    align-items: center;
+    margin:  0 auto;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 
-.img-commit{
-    position: absolute;
-}
-
-.año{
+.año {
     background-color: #84734d;
-    width: 40rem;
-    height: 30rem;
+    width: 40.5rem;
+    height: 25rem;
+    display: flex;
+    margin-right: -8rem;
+    z-index: 9999;
+    margin-left: -3rem;
+}
 
+.columna-1 {
+    width: 50%;
+    color: #fff;
+    margin-left: 3rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.but2-display-6 {
+    cursor: pointer;
+    background-color: #84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    border-color: #84734d;
+    cursor: pointer;
+    font-family: 'Pathway Gothic One', sans-serif;
+    width: 17rem;
+    border: none;
+    height: 3.3rem;
+}
+
+.img-right_background {
+    width: 50%;
+}
+
+.right-background_child {
+    width: 40rem ;
+    height: 100%;
+    margin-left: -20rem;
+}
+
+/* next columm */
+
+.container-5 {
+    inline-size: 106.6rem;
+    height: 36.6rem;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.imgfont-5 {
+    width: 64rem;
+    height: 36.6rem;
+    object-fit: cover;
+}
+
+.background-top-5 {
+    display: flex;
+    margin: auto;
+    border: solid 1px #BBBBBB;
+}
+
+.inset-5 {
+    margin: 2.7rem;
+    margin-top: 13rem;
+    line-height: 1.7rem;
+    font-family: 'Pathway Gothic One', sans-serif;;
+    font-size: 1.3rem;
+}
+
+.ebony-5 {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* next section */
+
+.sing {
+    background-color: #F7F8FA;
+}
+
+.fex-email-img{
+    display: flex;
 }
