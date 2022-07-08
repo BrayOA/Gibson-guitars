@@ -782,4 +782,151 @@ margin: 2rem 0;
 
 .fex-email-img{
     display: flex;
+    height: 23.5rem;
+    inline-size: 95rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.caja-email {
+    width: 70%;
+}
+
+.caja-email h2 {
+    font-size: 2.3rem;
+}
+
+.email {
+    width: 40rem;
+}
+
+.privacy-poliy > * {
+    color: #000;
+}
+
+.follow {
+    width: 30%;
+}
+
+input[type="email" i] {
+    font-size: .96rem;
+    padding: 1rem 0;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    margin-right: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.follow h4 {
+    font-size: 1.1rem;
+}
+
+.redes-sociales {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* next section */
+
+.container-black-footer {
+    background-color: #181818;
+    display: flex;
+    block-size: 54.4rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 96rem;
+    height: 46.6rem;
+    margin:0 auto;
+}
+
+.h3-title {
+    font-size: 1rem;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.shop {
+    color: white;
+}
+
+.shop li {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.shop li a {
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+
+.img-google-store-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.imagen-store {
+    width: 12rem;
+    margin: 1rem 0;
+}
+
+.list-bot {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.list-bot p a {
+    color: #fff;
+}
+
+
+.container-gray-footer {
+    background-color: #292828;
+    display: flex;
+    flex-direction: column;
+    block-size: 14.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-gray-footer p {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.img-svg {
+    height: 5rem;
+
+}
+
+.img-svg-1{
+    width: 9.3rem;
+    height: 5rem;
+}
+
+.finish-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish{
+    display: flex;
+    align-items: center;
+    width: 100rem;
+    justify-content: space-between;
+    color: #fff;
+}
+.finish  a {
+    color: #fff;
 }
