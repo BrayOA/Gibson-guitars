@@ -567,6 +567,7 @@ margin: 2rem 0;
     align-items: center;
     background-color: black;
     width: 15rem;
+    cursor: pointer;
 }
 .play p{
     color: #fff;
@@ -603,6 +604,7 @@ margin: 2rem 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+    cursor: pointer;
 }
 
 .img-play-icon{
@@ -681,6 +683,7 @@ margin: 2rem 0;
     height: 2.5rem;
     margin: 1rem 0;
     margin-left: -7rem;
+    cursor: pointer;
 }
 
 /* next section */
@@ -848,9 +851,13 @@ input[type="email" i] {
 }
 
 .h3-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: 3rem;
     font-weight: bold;
+}
+
+.separacion {
+    margin-top: 3.2rem;
 }
 
 .shop {
@@ -865,7 +872,7 @@ input[type="email" i] {
 .shop li a {
     color: white;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1.1rem;
 }
 
 
@@ -898,6 +905,7 @@ input[type="email" i] {
     block-size: 14.2rem;
     justify-content: center;
     align-items: center;
+    height: 24rem;
 }
 
 .container-gray-footer p {
@@ -905,13 +913,31 @@ input[type="email" i] {
     font-size: 1.2rem;
 }
 
+.visit {
+    margin-bottom: 3.3rem;
+    margin-top: 2rem;
+}
+
 .img-svg {
+    width:95.4rem;
     height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
+.img-zise {
+    width: 4rem;
+}
+
+.img-svg-2 {
+    width: 11rem;
+    margin-left: -3rem;
+}
+
 .img-svg-1{
-    width: 9.3rem;
+    width: 6rem;
     height: 5rem;
 }
 
